@@ -1,0 +1,41 @@
+.total-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+
+h6 {
+  font-size: 30px;
+}
+
+.heros {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+
+}
+
+
+.villains {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+
+}
+
+.score {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.players {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  border-style: ridge;
+  justify-items: center;
+  border-radius: 15px;
+  height: 300px;
+}
